@@ -1,18 +1,1 @@
-{
-  "name": "elitefit-indoor-sports-backend",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "ts-node src/index.ts"
-  },
-  "dependencies": {
-    "express": "^4.17.1",
-    "apollo-server-express": "^2.19.0",
-    "pg": "^8.7.1",
-    "prisma": "^2.30.0"
-  },
-  "devDependencies": {
-    "typescript": "^4.3.5",
-    "ts-node": "^10.0.0"
-  }
-}
+{"name": "elitefit-indoor-sports-backend","version": "1.0.0","main": "dist/index.js","scripts": {"dev": "ts-node-dev --respawn --transpile-only src/index.ts","build": "tsc","start": "node dist/index.js","prisma": "prisma"},"dependencies": {"@prisma/client": "^5.7.0","apollo-server-express": "^3.12.0","bcryptjs": "^2.4.3","dotenv": "^16.3.1","express": "^4.18.2","graphql": "^16.7.1","jsonwebtoken": "^9.0.2"},"devDependencies": {"@types/express": "^4.17.21","@types/jsonwebtoken": "^9.0.2","prisma": "^5.7.0","ts-node-dev": "^2.0.0","typescript": "^5.2.2"}}
